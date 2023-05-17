@@ -9,23 +9,32 @@
   font-size: 18px;
  }
  body{
-  background-color:hsl(217, 54%, 11%) ;
+  background-color:hsl(217, 54%, 11%) 
+  
  }
  .container{
   background-color: hsl(216, 50%, 16%);
-  padding: 2.5rem;
-  margin: 1.5rem;
-  width:300px;
+  padding: 1rem;
+  margin: 25rem;
+  width: 300px;
+  height: 600px;
   justify-content: center;
   align-content: center;
   display: flex;
   flex-direction: column;
   border-radius: 15px;
+ 
  }
  .card img{
   border-radius: 10px;
   height: 15rem;
   padding: 1 rem;
-  margin: 1vh;
+  margin: 1.8vh;
+  
  }
- 
+.heading h3{
+  
+}
+.description p{
+
+}
