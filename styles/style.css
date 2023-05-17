@@ -8,12 +8,24 @@
  html{
   font-size: 18px;
  }
+ body{
+  background-color:hsl(217, 54%, 11%) ;
+ }
  .container{
-  background-color: hsl(217, 54%, 11%);
-  /* height: 200px;
-  width: 200px; */
+  background-color: hsl(216, 50%, 16%);
   padding: 2.5rem;
   margin: 1.5rem;
+  width:300px;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
  }
+ .card img{
+  border-radius: 10px;
+  height: 15rem;
+  padding: 1 rem;
+  margin: 1vh;
+ }
+ 
