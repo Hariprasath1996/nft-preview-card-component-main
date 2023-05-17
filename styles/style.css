@@ -1,0 +1,19 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+ *{ 
+  margin: 0;
+  padding: 0;
+ }
+
+ html{
+  font-size: 18px;
+ }
+ .container{
+  background-color: hsl(217, 54%, 11%);
+  /* height: 200px;
+  width: 200px; */
+  padding: 2.5rem;
+  margin: 1.5rem;
+  justify-content: center;
+  align-items: center;
+ }
