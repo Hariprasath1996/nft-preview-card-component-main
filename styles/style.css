@@ -4,6 +4,13 @@ html{
 }
 body{
   background-color: hsl(217, 54%, 11%);
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+margin: 3rem;
+
+
 }
 .card{
   background-color: hsl(216, 50%, 16%);
@@ -15,7 +22,7 @@ body{
   height: 500px;
   justify-content: center;
   align-items: center;
-  margin:35rem;
+  /* margin:35rem; */
 }
 .section1 img{
   display: flex;
