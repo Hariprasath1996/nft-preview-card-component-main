@@ -1,40 +1,92 @@
  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
-
- *{ 
-  margin: 0;
-  padding: 0;
- }
-
- html{
-  font-size: 18px;
- }
- body{
-  background-color:hsl(217, 54%, 11%) 
-  
- }
- .container{
+html{
+  font: size 18px; 
+}
+body{
+  background-color: hsl(217, 54%, 11%);
+}
+.card{
   background-color: hsl(216, 50%, 16%);
-  padding: 1rem;
-  margin: 25rem;
+  display:flex ;
+  flex-direction:column;
+  padding:1rem 1rem 1rem 1rem;
+  border-radius:1rem;
   width: 300px;
-  height: 600px;
+  height: 500px;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  margin:35rem;
+}
+.section1 img{
+  display: flex;
+  width:300px ;
+  border-radius:1.5rem;
+}
+.section{
   display: flex;
   flex-direction: column;
-  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.section1 h3{
+  display: flex;
+line-height: 16px;
+  color: white;
+}
+.section1 p{
+  display: flex;
+  color:  hsl(215, 32%, 27%);
+  line-height: 20px;
+  width: 300px;
+}
+.section2 {
+  display: flex;
+  width: 280px;
+  padding:.3rem 1rem .3rem 1rem;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+.left-container{
+display: flex;
+justify-content:space-around;
+width: 100px;
+color:hsl(178, 100%, 50%) ;
+}
+.left-icon img{
+  justify-content: flex-start;
+}
+.right-container{
+  display: flex;
+justify-content:space-around;
+width: 100px;
+color:hsl(215, 51%, 70%);
+}
+ .card-breaker{
+  width: 300px;
+  color:hsl(215, 51%, 70%);
+  
+ }
+ .section3{
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+  justify-content:flex-start;
+  gap: 2rem;
+ }
+ .profile img{
+  display: flex;
+  width: 20px;
+  border-radius:20rem;
+  background-color: hsl(0, 0%, 100%);
+ }
+ .profile-info{
+color: hsl(215, 51%, 70%);
  
  }
- .card img{
-  border-radius: 10px;
-  height: 15rem;
-  padding: 1 rem;
-  margin: 1.8vh;
-  
+ .name{ 
+  color: hsl(0, 0%, 100%);
  }
-.heading h3{
-  
-}
-.description p{
 
-}
+
